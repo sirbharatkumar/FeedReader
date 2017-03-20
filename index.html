@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Quick Feed Reader</title>
+    <style type="text/css">
+        .site-loader {
+            display: block;
+            position: fixed;
+            z-index: 999999;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: #FFF url('images/ajax-loader-blue.gif') 50% 50% no-repeat;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="site-loader"></div>
+    <link href="css/inettuts.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-personalized-1.6rc2.min.js"></script>
+    <script type="text/javascript" src="scripts/inettuts.js"></script>
+    <script src="scripts/jquery.cookies.2.2.0.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <div class="widget-add-content">
+        <a href="#" title="Add New Feed">ADD</a>
+    </div>
+    <ul id="widget-feeds" style="display: none">
+        <li data-feed-url="http://feeds.bbci.co.uk/news/technology/rss.xml" data-column="1" data-position="1" data-size="10"></li>
+        <li data-feed-url="http://feeds.bbci.co.uk/news/world/rss.xml" data-column="1" data-position="2" data-size="10"></li>
+        <li data-feed-url="http://feeds.bbci.co.uk/news/rss.xml" data-column="1" data-position="3" data-size="10"></li>
+        <li data-feed-url="http://rss.cnn.com/rss/edition_asia.rss" data-column="1" data-position="4" data-size="10"></li>
+        <li data-feed-url="http://rss.cnn.com/rss/edition_sport.rss" data-column="1" data-position="5" data-size="10"></li>
+        <li data-feed-url="http://timesofindia.indiatimes.com/rssfeeds/-2128838597.cms" data-column="2" data-position="1" data-size="10"></li>
+        <li data-feed-url="http://timesofindia.indiatimes.com/rssfeeds/-2128839596.cms" data-column="2" data-position="2" data-size="10"></li>
+        <li data-feed-url="http://timesofindia.indiatimes.com/rssfeeds/-2128833038.cms" data-column="2" data-position="3" data-size="10"></li>
+        <li data-feed-url="http://timesofindia.indiatimes.com/rssfeeds/2950623.cms" data-column="2" data-position="4" data-size="10"></li>
+        <li data-feed-url="http://timesofindia.indiatimes.com/rssfeeds/-2128821991.cms" data-column="2" data-position="5" data-size="10"></li>
+    </ul>
+    <div id="columns">
+        
+    </div>
+    <div class="widget-reset-content">
+        <a href="#" title="Reset">RESET</a>
+    </div>
+</body>
+</html>
