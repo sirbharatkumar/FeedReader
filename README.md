@@ -1,6 +1,8 @@
 # FeedReader
 jQuery based Feed reader
 
+Live Demo: http://labs.cmdgen.com/feed_reader/
+
 Note*: Version jQuery 1.9.1
 
 Features:
