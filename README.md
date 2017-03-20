@@ -1,9 +1,7 @@
 # FeedReader
-WebApi + jQuery based Feed reader
+jQuery based Feed reader
 
-WebApi is used to fetch feeds and using jQuery ajax it displayed on Html.
-Note: Version
-WebApi 2 and jQuery 1.9.1
+Note*: Version jQuery 1.9.1
 
 Features:
 
