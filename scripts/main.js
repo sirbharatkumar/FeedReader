@@ -1,7 +1,7 @@
 ﻿var feed, entry, widget_html, widget_container, widget_reload;
 
 function ajaxFeeds(feed_url, callback) {
-    var surl = "http://localhost:12517/feed";
+    var surl = "http://api.cmdgen.com/feed";
 
     $.ajax({
         type: 'GET',
